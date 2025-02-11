@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>养老信息平台</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9; /* 浅色背景 */
+            color: #333; /* 深色文字 */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 容器样式 */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* 标题样式 */
+        h1 {
+            font-size: 2.5rem; /* 大字体 */
+            color: #0066cc; /* 蓝色标题 */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* 链接样式 */
+        a {
+            color: #0066cc; /* 蓝色链接 */
+            text-decoration: none;
+            font-size: 1.2rem; /* 大字体 */
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* 图片样式 */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px; /* 圆角 */
+        }
+
+        /* 按钮样式 */
+        .button {
+            display: inline-block;
+            background-color: #0066cc; /* 蓝色背景 */
+            color: #fff; /* 白色文字 */
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .button:hover {
+            background-color: #0052a3; /* 深蓝色 */
+        }
+
+        /* 段落样式 */
+        p {
+            font-size: 1.2rem; /* 大字体 */
+            color: #555; /* 深灰色文字 */
+        }
+
+        /* 高对比度模式 */
+        @media (prefers-contrast: more) {
+            body {
+                background-color: #fff; /* 纯白背景 */
+                color: #000; /* 纯黑文字 */
+            }
+            a {
+                color: #0000ff; /* 高对比度蓝色 */
+            }
+            .button {
+                background-color: #0000ff; /* 高对比度蓝色 */
+                color: #fff;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 标题 -->
+        <h1>欢迎来到养老信息平台</h1>
+
+        <!-- 图片 -->
+        <img src="https://via.placeholder.com/800x400" alt="养老信息平台图片">
+
+        <!-- 简介 -->
+        <p>这里是养老经纪人创建的网站，提供政策解读、工具资源和探店视频。</p>
+
+        <!-- 链接 -->
+        <div>
+            <a href="/policies" class="button">政策解读</a>
+            <a href="/tools" class="button">工具资源</a>
+            <a href="/videos" class="button">探店视频</a>
+        </div>
+
+        <!-- 联系信息 -->
+        <p>如有疑问，请联系我们：<a href="mailto:info@yanglao.com">info@yanglao.com</a></p>
+    </div>
+</body>
+</html>
